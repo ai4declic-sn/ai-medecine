@@ -1,0 +1,15 @@
+streamlit
+openai
+tiktoken
+langchain
+nltk
+python-docx
+python-dotenv
+PyPDF2
+faiss-cpu
+audio-recorder-streamlit
+SpeechRecognition
+transformers
+sentencepiece 
+datasets
+torch

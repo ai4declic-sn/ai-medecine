@@ -304,7 +304,7 @@ def main():
     whisper = pipeline("automatic-speech-recognition", model="openai/whisper-tiny")
 
     # Style.css to remove footer and make some css changes
-    with open("/workspaces/data-qa-main/style.css") as style:
+    with open("style.css") as style:
         st.markdown(f"<style> {style.read()} </style>", unsafe_allow_html=True)
 
     # Initialization of the session state

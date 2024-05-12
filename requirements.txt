@@ -1,7 +1,7 @@
 streamlit
 openai
 tiktoken
-langchain
+langchain==0.0.152
 nltk
 python-docx
 python-dotenv

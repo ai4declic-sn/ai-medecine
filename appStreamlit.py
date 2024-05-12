@@ -35,7 +35,7 @@ my_secret_key = (
 import os
 
 # my_secret_key = os.getenv("OPENAI_API_KEY")
-my_secret_key = st.secrets["OPENAI_API_KEY"]
+my_secret_key = "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"
 SampleRate = 16000
 
 

@@ -30,12 +30,12 @@ st.session_state.ConvoHistory = None
 # load_dotenv()
 
 my_secret_key = (
-    "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"  ##st.secrets["OPENAI_API_KEY"]
+    ""  ##st.secrets["OPENAI_API_KEY"]
 )
 import os
 
 # my_secret_key = os.getenv("OPENAI_API_KEY")
-my_secret_key = "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"
+my_secret_key = ""
 SampleRate = 16000
 
 

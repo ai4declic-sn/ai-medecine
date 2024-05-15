@@ -359,21 +359,21 @@ def main():
         st.write("------")
 
         # Audio Speech recognition
-        st.header("Click here for audio query")
-        Recording = audio_recorder(
-            text="", icon_size="1.5x", neutral_color="#06EC02", recording_color="#EC2C02"
-        )
+        #st.header("Click here for audio query")
+       # Recording = audio_recorder(
+       #     text="", icon_size="1.5x", neutral_color="#06EC02", recording_color="#EC2C02"
+       # )
 
-    if Recording is not None:
-        ConvoPlace(
-            whisper(Recording)["text"],
-            st.session_state.ConversationModel,
-            target_language,
-            processor,
-            model,
-            speaker_embeddings,
-            vocoder,
-        )
+  #  if Recording is not None:
+  #      ConvoPlace(
+      #      whisper(Recording)["text"],
+     #       st.session_state.ConversationModel,
+      #      target_language,
+      #      processor,
+      #      model,
+      #      speaker_embeddings,
+      #      vocoder,
+     #   )
 
     queries = st.chat_input(placeholder="Ask about your document")
 
